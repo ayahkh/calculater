@@ -1,0 +1,21 @@
+.container {
+  /* font-size: 40px; */
+  /* width: 100%; */
+  background-color: blue;
+  width: 100px;
+  display: grid;
+  grid-template-rows: 20px 100px;
+  grid-row-gap: 5px;
+}
+.row2 {
+  display: grid;
+  background: LightGray;
+  grid-template-rows: 30px 30px 30px 30px;
+  grid-row-gap: 5px;
+}
+.rowbuttons {
+  display: grid;
+  grid-template-columns: 30px 30px 30px;
+  background: green;
+  grid-column-gap: 5px;
+}
